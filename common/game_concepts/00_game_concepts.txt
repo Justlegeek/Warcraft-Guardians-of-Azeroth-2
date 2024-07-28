@@ -1100,12 +1100,6 @@ lifestyle_trait = {
 	parent = trait
 }
 
-physical_trait = {
-	alias = { physical_traits }
-	texture = "gfx/interface/icons/traits/strong.dds"
-	parent = trait
-}
-
 fame_trait = {
 	texture = "gfx/interface/icons/traits/augustus.dds"
 	parent = trait
@@ -1212,6 +1206,16 @@ massive_aerial = {
 
 massive_infantry = {
 	texture = "gfx/interface/icons/regimenttypes/massive_infantry.dds"
+	parent = men_at_arms
+}
+
+fire_elemental = {
+	texture = "gfx/interface/icons/regimenttypes/fire_elemental.dds"
+	parent = men_at_arms
+}
+
+fire_terrestrial = {
+	texture = "gfx/interface/icons/regimenttypes/fire_terr.dds"
 	parent = men_at_arms
 }
 

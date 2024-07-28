@@ -17,11 +17,11 @@
 	}
 	558.1.13={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		#trait=physical_lifestyle_endurance_3
+		#trait=physical_lifestyle_strength_3
 	}
 	562.1.1={
 		add_spouse = 10001	#Urukal
@@ -46,7 +46,7 @@
 	}
 	586.2.1={
 		death = {
-			death_reason = death_duel
+			death_reason = death_battle
 			killer = 10050 #Orgrim Doomhammer
 		}
 	}
@@ -66,11 +66,11 @@
 	}
 	559.9.27={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
+		#trait=physical_lifestyle_endurance_1
+		#trait=physical_lifestyle_strength_1
 	}
 	586.9.8={ death=yes }
 }
@@ -92,14 +92,11 @@
 	}
 	579.9.14={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
-	}
-	590.9.14={
-		trait=one_eyed
+		#trait=physical_lifestyle_endurance_3
+		#trait=physical_lifestyle_strength_3
 	}
 	608.4.7={ death=yes }
 }
@@ -121,11 +118,11 @@
 	}
 	581.1.18={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		#trait=physical_lifestyle_endurance_3
+		#trait=physical_lifestyle_strength_3
 	}
 	603.3.23={ death=yes }
 }
@@ -149,11 +146,11 @@
 	}
 	582.3.11={
 		effect={
-			set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
 		}
-		# trait=physical_lifestyle_dexterity_1
-		# trait=physical_lifestyle_strength_1
+		#trait=physical_lifestyle_dexterity_1
+		#trait=physical_lifestyle_strength_1
 	}
 	583.1.1={
 		employer=10000 #Blackhand[2000]
@@ -185,11 +182,11 @@
 	}
 	542.1.15={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		#trait=physical_lifestyle_endurance_3
+		#trait=physical_lifestyle_strength_3
 	}
 	591.6.18={ death=yes }
 }
@@ -224,11 +221,11 @@ bleedinghollow1={
 	537.4.7={ birth=yes trait=creature_orc }
 	566.4.7={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
 	}
 	570.8.27={
 		death = {
@@ -248,11 +245,11 @@ bleedinghollow1={
 	558.4.26={ birth=yes trait=creature_orc }
 	582.4.26={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
+		#trait=physical_lifestyle_endurance_1
+		#trait=physical_lifestyle_strength_1
 	}
 	582.9.23={
 		death = {
@@ -272,11 +269,11 @@ bleedinghollow1={
 	540.6.18={ birth=yes trait=creature_orc }
 	567.6.18={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
 	}
 	570.12.19={
 		death = {
@@ -296,11 +293,11 @@ bleedinghollow1={
 	560.4.9={ birth=yes trait=creature_orc }
 	582.4.9={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
 	}
 	582.12.26={
 		death = {
@@ -320,11 +317,11 @@ bleedinghollow1={
 	548.4.23={ birth=yes trait=creature_orc }
 	570.4.23={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
+		#trait=physical_lifestyle_endurance_1
+		#trait=physical_lifestyle_strength_1
 	}
 	575.1.19={
 		death = {
@@ -352,11 +349,11 @@ bleedinghollow1={
 	# }
 	# 569.6.18={
 		# effect={
-			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			# #set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			# #set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		# }
-		# # trait=physical_lifestyle_endurance_3
-		# # trait=physical_lifestyle_strength_3
+		# #trait=physical_lifestyle_endurance_3
+		# #trait=physical_lifestyle_strength_3
 	# }
 	# 583.1.1={
 		# effect={
@@ -398,12 +395,17 @@ bleedinghollow1={
 			set_variable = { name = wc_elemental_water_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value }
 			set_variable = { name = wc_elemental_air_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value }
 		}
+
+
 	}
 	591.11.1={
 		culture=scourge religion=death_god
 		trait = being_undead
 		remove_trait = creature_orc
 		add_trait = creature_lich
+		effect={ set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_5_magic_trait_value } }
+
+
 		trait = lich_king
 		remove_trait = education_learning_4
 		add_trait = education_learning_5
@@ -456,9 +458,9 @@ neema={
     dna=guldan_dna_2
 	dynasty=2350
 	culture=shadowmoon religion=orcish_fel
-	martial=4 diplomacy=5 stewardship=4 intrigue=7 learning=6
-	trait=education_learning_4
-	trait=hunchbacked trait=magic_good_3 trait=physique_bad_1
+	martial=4 diplomacy=5 stewardship=4 intrigue=7 learning=5
+	trait=education_learning_4 
+	trait=hunchbacked trait=magic_good_3
 	trait=ambitious trait=arrogant trait=wrathful trait=deceitful trait=disloyal
 	disallow_random_traits = yes
 	# Actually, Gul'dan is pretty young, he looks old because of Fel
@@ -472,9 +474,23 @@ neema={
 			set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_magic_trait_value }
 			learn_language = language_eredun
 		}
+
 	}
 	583.1.1={
 		effect={
+			# give_council_position doesn't work
+			liege = {
+				fire_councillor = cp:councillor_chancellor
+				assign_councillor_type = {
+					type = councillor_chancellor
+					target = root
+				}
+			}
+			fire_councillor = cp:councillor_court_chaplain
+			assign_councillor_type = {
+				type = councillor_court_chaplain
+				target = character:10023
+			}
 			add_hook_no_toast = {
 				target = character:10000
 				type = loyalty_hook
@@ -483,7 +499,6 @@ neema={
 			# set_society_grandmaster = yes
 			# add_society_currency_massive_effect = yes
 		}
-		give_council_position = councillor_chancellor
 	}
 	587.6.1={
 		culture = stormreaver
@@ -495,18 +510,13 @@ neema={
 10016={
 	name=Nagaz
 	culture=bleeding_hollow religion=orcish_fel
-	martial=7 diplomacy=4 stewardship=3 intrigue=7 learning=5
-	trait=education_learning_3 trait=education_martial_prowess_2
+	martial=4 diplomacy=4 stewardship=3 intrigue=6 learning=5
+	trait=education_learning_3 
 	trait=sadistic trait=arrogant trait=deceitful
 	540.1.1={ birth=yes trait=creature_orc }
 	556.1.1={
-		effect={
-			set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value }
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
+		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value } }
+
 	}
 	583.1.1={
 		employer = 10000
@@ -518,7 +528,6 @@ neema={
 	}
 	587.6.1={
 		culture = stormreaver
-		employer = 10015
 	} 
 	590.2.19={
 		effect = {
@@ -526,15 +535,7 @@ neema={
 			#add_society_currency_massive_effect = yes
 		}
 	}
-	600.1.1={
-		employer = 58002 #Aliden Perenolde
-		trait=one_eyed
-		learn_language = language_common
-		religion=holy_light
-		effect = { make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:orcish_fel } }
-	}
-
-	615.1.19={ death=yes }
+	609.1.19={ death=yes }
 }
 
 #dynasty=none
@@ -551,6 +552,7 @@ neema={
 	}
 	552.1.1={
 		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value } }
+
 	}
 	583.1.1={
 		employer = 10015
@@ -566,14 +568,15 @@ neema={
 		add_trait = creature_human
 		culture = stormreaver
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
 			set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
 			change_first_name = Teron
 			# dynasty = 2352	# Gorefiend
 		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
+		#trait=physical_lifestyle_endurance_1
+		#trait=physical_lifestyle_strength_1
+
 	}
 	609.2.19={ death=yes }
 }
@@ -647,13 +650,13 @@ neema={
 		effect={
 			set_relation_best_friend = character:10050
 
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_4
-		# trait=physical_lifestyle_strength_4
+		#trait=physical_lifestyle_endurance_4
+		#trait=physical_lifestyle_strength_4
 	}
-	573.1.1={
+	578.1.1={
 		add_spouse = 10020
 		effect = { set_relation_soulmate = character:10020 }
 	}
@@ -694,8 +697,8 @@ neema={
 	}
 	576.8.6={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
 		# trait=physical_lifestyle_endurance_3
 		# trait=physical_lifestyle_strength_3
@@ -724,8 +727,8 @@ lokra={
 	}
 	577.8.6={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
 		}
 		# trait=physical_lifestyle_endurance_1
 		# trait=physical_lifestyle_strength_1
@@ -804,16 +807,20 @@ zuura={
 				target = character:10658	#Blood-brothers with Nazgrel
 				type = ritual_best_friend_hook
 			}
-			add_opinion = { modifier = mentored_me_opinion target = character:10100 }
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 			set_variable = { name = wc_elemental_fire_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_water_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_air_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_earth_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
+
+
+
+
 	}
 	603.5.10={
 		effect={
@@ -864,9 +871,9 @@ garad_frostwolf={
 	father=durkosh_frostwolf
 	trait=education_martial_3
 	trait=honest trait=patient trait=brave
-	518.1.2={
+	538.1.2={ 
 		birth=yes trait=creature_orc
-		effect = { make_important_lore_character_effect = yes }
+		effect = { make_important_lore_character_effect = yes } 
 	}
 	546.1.1={
 		add_spouse = greatmother_geyah
@@ -1210,6 +1217,7 @@ omakka_wolfbrother={
 	532.1.1={ birth=yes trait=creature_orc }
 	548.1.1={
 		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value } }
+
 	}
 	583.1.1={
 		employer = 10015
@@ -1225,12 +1233,13 @@ omakka_wolfbrother={
 		add_trait = creature_human
 		culture = stormreaver
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_1_physical_trait_value }
 			set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
+		#trait=physical_lifestyle_endurance_1
+		#trait=physical_lifestyle_strength_1
+
 	}
 	591.10.6={ death=yes }
 }
@@ -1249,11 +1258,11 @@ omakka_wolfbrother={
 				trait = lifestyle_mystic
 				value = 50
 			}
+			add_trait = user_of_disorder_magic_3
 		}
 	}
 	583.1.1={
 		employer = 10015 #Gul'dan
-		give_council_position = councillor_court_chaplain
 		effect={
 			if = { limit = { character:10015 = { is_alive = yes } } add_opinion = { modifier = loyal_servant target = character:10015 } }	#Gul'dan
 			# join_society_shadow_council_effect = yes
@@ -1275,7 +1284,6 @@ omakka_wolfbrother={
 	dna = orgrim_doomhammer_dna_2
 	dynasty=2001
 	culture=blackrock religion=orcish_shamanism
-	father=telkar
 	martial=7 diplomacy=4 stewardship=5 intrigue=6 learning=3
 	trait=education_martial_4 trait=education_martial_prowess_4 trait=physique_good_3 trait=honest trait=wrathful trait=brave trait=ambitious trait=shrewd
 	disallow_random_traits = yes
@@ -1285,11 +1293,11 @@ omakka_wolfbrother={
 	}
 	578.1.1={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_4
-		# trait=physical_lifestyle_strength_4
+		#trait=physical_lifestyle_endurance_4
+		#trait=physical_lifestyle_strength_4
 	}
 	583.1.1={
 		add_prestige = 750		# Should be able to invite clans when he's Warchief
@@ -1297,7 +1305,7 @@ omakka_wolfbrother={
 		add_pressed_claim = title:e_horde
 		add_pressed_claim = title:k_blackrock_clan
 		give_council_position = councillor_marshal
-		effect = {
+		effect = {	
 			appoint_court_position = {
 				recipient = character:utok_scratcher
 				court_position = chronicler_court_position
@@ -1309,42 +1317,6 @@ omakka_wolfbrother={
 		learn_language = language_common
 	}
 	601.11.1={ death=yes }
-}
-telkar={
-	name=Telkar
-	dynasty=2001
-	culture=blackrock religion=orcish_shamanism
-	sexuality = heterosexual
-	father=ruvash
-	trait=education_martial_3 trait=education_martial_prowess_4
-	trait=honest trait=patient trait=brave
-	515.1.2={ 
-		birth=yes trait=creature_orc
-	}
-	572.1.1={ death=yes }
-}
-ruvash={
-	name=Ruvash
-	dynasty=2001
-	culture=blackrock religion=orcish_shamanism
-	sexuality = heterosexual
-	father=gelnar
-	480.1.2={
-		birth=yes trait=creature_orc
-	}
-	560.1.1={ death=yes }
-}
-gelnar={ #Orgrim's distant ancestor. Responsible for the creation of the legendary weapon known as the Doomhammer
-	name=Gelnar
-	dynasty=2001
-	culture=blackrock religion=orcish_shamanism
-	sexuality = heterosexual
-	trait=education_martial_4 trait=education_martial_prowess_4 
-	trait=brave #trait=profession_blacksmith
-	430.1.2={
-		birth=yes trait=creature_orc
-	}
-	510.1.1={ death=yes }
 }
 
 # dynasty=2002 Not really lore void undead rulers of Crestfall
@@ -1358,11 +1330,11 @@ gelnar={ #Orgrim's distant ancestor. Responsible for the creation of the legenda
 	556.2.11={ birth=yes trait=creature_orc }
 	581.1.1={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
 	}
 	590.1.1={
 		trait=being_undead
@@ -1382,6 +1354,7 @@ gelnar={ #Orgrim's distant ancestor. Responsible for the creation of the legenda
 		trait=being_undead
 		religion=voidfarer
 		effect={ set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value } }
+
 	}
 	700.9.23={ death=yes }
 }
@@ -1395,10 +1368,10 @@ gelnar={ #Orgrim's distant ancestor. Responsible for the creation of the legenda
 	martial=6 diplomacy=5 stewardship=6 intrigue=4 learning=6
 	trait=education_learning_3
 	trait=blind trait=magic_good_2
-	trait=brave trait=honest trait=content trait=diligent
+	trait=brave trait=honest trait=content trait=diligent 
 	546.6.26={
-		birth=yes trait=creature_orc
-		effect = { make_important_lore_character_effect = yes }
+		birth=yes trait=creature_orc 
+		effect = { make_important_lore_character_effect = yes } 
 	}
 	566.1.1={
 		effect={
@@ -1407,24 +1380,16 @@ gelnar={ #Orgrim's distant ancestor. Responsible for the creation of the legenda
 			set_variable = { name = wc_elemental_air_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
 			set_variable = { name = wc_elemental_earth_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
 		}
+
+
+
+
 	}
-	583.1.1={
-		employer=10019
-		give_council_position = councillor_court_chaplain
-	}
+	#583.1.1={
+	#	employer=10019
+	#	give_council_position = councillor_court_chaplain
+	#}
 	625.8.10={ death=yes }
-}
-kalthar={ #semi-lore son of Drek'Thar from Warcraft Adventures
-	name=Kal'Thar
-	dynasty=2201
-	culture=frostwolf religion=orcish_shamanism
-	father=10100
-	martial=4 diplomacy=8 stewardship=6 intrigue=6 learning=6
-	trait=education_diplomacy_1 trait=magic_good_1 trait=trusting trait=calm trait=patient
-	578.6.26={
-		birth=yes trait=creature_orc 
-	}
-	665.8.10={ death=yes }
 }
 
 # dynasty=2300
@@ -1453,15 +1418,15 @@ kalthar={ #semi-lore son of Drek'Thar from Warcraft Adventures
 	}
 	572.2.21={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
 			add_trait_xp = {
 				trait = lifestyle_blademaster
 				value = 50
 			}
 		}
-		# trait=physical_lifestyle_endurance_4
-		# trait=physical_lifestyle_strength_4
+		#trait=physical_lifestyle_endurance_4
+		#trait=physical_lifestyle_strength_4
 	}
 	577.5.12={
 		add_spouse = 10600
@@ -1470,7 +1435,7 @@ kalthar={ #semi-lore son of Drek'Thar from Warcraft Adventures
 		# create_bloodline = { #Defeats Mannoroth
 			# type = grommash
 		# }
-		death = { death_reason = death_battle killer = mannoroth }
+		death = { death_reason = death_battle }
 	}	
 }
 garrosh = {
@@ -1479,7 +1444,7 @@ garrosh = {
 	dynasty_house = house_hellscream
 	culture = maghar
 	religion = orcish_shamanism
-	martial=8 diplomacy=5 stewardship=7 intrigue=5 learning=6
+	martial=5 diplomacy=8 stewardship=7 intrigue=5 learning=6
 	trait=education_martial_4 trait=education_martial_prowess_4
 	trait=wrathful trait=impatient trait=brave
 	trait = physique_good_3
@@ -1552,6 +1517,7 @@ golmash = {
 	}
 	561.5.26={
 		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value } }
+
 	}
 	591.10.23={ death={ death_reason=death_battle } }
 }
@@ -1575,11 +1541,11 @@ golmash = {
 	}
 	581.5.26={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
 	}
 	608.1.23={ death=yes }
 }
@@ -1729,15 +1695,15 @@ garneg_charskull={
 	550.5.18={ birth=yes trait=creature_orc }
 	566.5.18={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
 			add_trait_xp = {
 				trait = lifestyle_blademaster
 				value = 50
 			}
 		}
-		# trait=physical_lifestyle_endurance_4
-		# trait=physical_lifestyle_strength_4
+		#trait=physical_lifestyle_endurance_4
+		#trait=physical_lifestyle_strength_4
 	}
 	590.1.1={ trait = being_demon }
 	603.10.21={
@@ -1753,25 +1719,18 @@ garneg_charskull={
 	dynasty=2149
 	culture=blackrock religion=orcish_fel
 	martial=8 diplomacy=5 stewardship=5 intrigue=5 learning=5
-	trait=education_martial_2 trait=education_martial_prowess_2 trait=brave trait=cynical trait=sadistic trait=arbitrary
+	trait=education_martial_2 trait=brave trait=cynical trait=sadistic trait=arbitrary
 	disallow_random_traits = yes
 	555.3.11={ birth=yes trait=creature_orc }
 	570.1.1=={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
 	}
-	582.1.1={
-		employer=10002 #Dal'rend
-	}
-	606.2.23={
-		trait=being_undead
-		effect={ set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value } }
-	}
-	611.2.23={ death=yes }
+	606.2.23={ death=yes }
 }
 # dynasty=2145
 10560={
@@ -1786,11 +1745,11 @@ garneg_charskull={
 	}
 	570.1.1={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		#trait=physical_lifestyle_endurance_3
+		#trait=physical_lifestyle_strength_3
 	}
 	600.1.1={ religion=orcish_shamanism }
 	615.8.3={ death=yes }
@@ -1818,11 +1777,11 @@ garneg_charskull={
 	}
 	570.1.1={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_5_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_5_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_5_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_5_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_5
-		# trait=physical_lifestyle_strength_5
+		#trait=physical_lifestyle_endurance_5
+		#trait=physical_lifestyle_strength_5
 	}
 	587.1.1={
 		religion=orcish_shamanism
@@ -1837,25 +1796,21 @@ garneg_charskull={
 	name=Varok
 	dynasty=2290
 	culture=blackrock religion=orcish_fel
-	martial=7 diplomacy=5 stewardship=7 intrigue=4 learning=7
+	martial=6 diplomacy=5 stewardship=7 intrigue=4 learning=8
 	trait=education_martial_3 trait=education_martial_prowess_3 trait=diligent trait=brave trait=strong trait=just trait=patient
 	disallow_random_traits = yes
 	father=10565	#Koruk
-	560.10.18={
+	560.10.18={ 
 		birth=yes trait=creature_orc
 		effect = { make_important_lore_character_effect = yes }
 	}
-	576.1.1={
-		add_spouse=remda
-		#set_relation_soulmate = character:remda
-	}
 	580.1.1={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_4
-		# trait=physical_lifestyle_strength_4
+		#trait=physical_lifestyle_endurance_4
+		#trait=physical_lifestyle_strength_4
 	}
 	583.1.1 = {
 		employer = 10000
@@ -1873,57 +1828,6 @@ garneg_charskull={
 		}
 	}
 }
-remda={
-	name=Remda
-	female=yes
-	culture=blackrock religion=orcish_shamanism
-	trait=education_diplomacy_2 trait=diligent trait=paranoid trait=just
-	560.10.18={
-		birth=yes trait=creature_orc
-	}
-	582.1.9={ death=yes }
-}
-dranosh={
-	name=Dranosh
-	dynasty=2290
-	culture=maghar religion=orcish_shamanism
-	martial=7 diplomacy=8 stewardship=5 intrigue=4 learning=6
-	trait=education_martial_3 trait=education_martial_prowess_3 trait=diligent trait=brave trait=strong trait=just trait=gregarious
-	disallow_random_traits = yes
-	father=10567	#Varok
-	mother=remda
-	580.10.18={
-		birth=yes trait=creature_orc
-		effect = { make_important_lore_character_effect = yes }
-	}
-	581.5.15 = {
-		effect = {
-			if = {
-				limit = { game_start_date < 609.12.25 }
-				vanish_historical_character_effect = yes
-			}
-		}
-	}
-	590.1.1={
-		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-		}
-		# trait=physical_lifestyle_endurance_4
-		# trait=physical_lifestyle_strength_4
-	}
-	610.1.15={
-		trait = being_undead
-		religion = death_god
-		culture = scourge
-	}
-	610.12.8={
-		death = {
-			death_reason = death_battle
-			killer = 10567
-		}
-	}
-}
 
 # dynasty=2357
 10570={
@@ -1937,6 +1841,7 @@ dranosh={
 	563.3.14={ birth=yes trait=creature_orc }
 	580.1.1={
 		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_magic_trait_value } }
+
 	}
 	587.6.1={
 		culture = stormreaver
@@ -1971,7 +1876,6 @@ dranosh={
 	dna=rexxar_dna
 	dynasty=2700
 	culture=moknathal religion=orcish_shamanism
-	father=leoroxx
 	martial=5 diplomacy=7 stewardship=5 intrigue=3 learning=4
 	trait=education_martial_4 trait=education_martial_prowess_3 trait=lifestyle_hunter trait=lifestyle_traveler
 	trait=temperate trait=generous trait=patient trait=just
@@ -1990,8 +1894,8 @@ dranosh={
 	}
 	583.1.1={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
 			add_trait_xp = {
 				trait = lifestyle_hunter
 				track = hunter
@@ -2003,8 +1907,8 @@ dranosh={
 				value = 50
 			}
 		}
-		# trait=physical_lifestyle_endurance_4
-		# trait=physical_lifestyle_dexterity_4
+		#trait=physical_lifestyle_endurance_4
+		#trait=physical_lifestyle_dexterity_4
 		employer=10000	#Blackhand
 	}
 	593.1.1={	# Only trusts beasts from thereon out
@@ -2029,36 +1933,6 @@ dranosh={
 	}
 	635.3.10={ death=yes }
 }
-leoroxx={
-	name=Leoroxx
-	dynasty=2700
-	culture=moknathal religion=orcish_shamanism
-	martial=5 diplomacy=7 stewardship=5 intrigue=3 learning=4
-	trait=education_martial_4 trait=education_martial_prowess_3 trait=lifestyle_hunter
-	trait=temperate trait=stubborn trait=just
-	538.3.25={
-		birth=yes trait=creature_orc
-		#trait = blood_ogre
-		effect = {
-			make_important_lore_character_effect = yes
-			learn_language = language_ogre
-			add_trait_xp = {
-				trait = lifestyle_hunter
-				track = hunter
-				value = 50
-			}
-		}
-	}
-	583.1.1 = {
-		effect = {
-			if = {
-				limit = { game_start_date < 609.12.25 }
-				vanish_historical_character_effect = yes
-			}
-		}
-	}
-	635.3.10={ death=yes }
-}
 
 # Garona
 10620={
@@ -2068,24 +1942,21 @@ leoroxx={
 	female=yes
 	culture=shadowmoon religion=orcish_fel
 	sexuality = heterosexual
-	martial=7 diplomacy=4 stewardship=7 intrigue=8 learning=5
-	trait=education_intrigue_4 trait=education_martial_prowess_2
-	trait=intellect_good_2 trait=content trait=humble trait=patient trait=chaste trait = legitimized_bastard
+	martial=6 diplomacy=4 stewardship=8 intrigue=5 learning=8
+	trait=education_intrigue_4
+	trait=content trait=humble trait=patient trait=chaste trait = legitimized_bastard
 	559.7.13={
 		birth=yes trait=creature_orc
 		#trait = blood_draenei
 		effect = { make_important_lore_character_effect = yes }
 	}
-	576.1.1={
-		effect={
-			set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-		}
-		# trait=physical_lifestyle_dexterity_4
-		# trait=physical_lifestyle_strength_4
-		learn_language = language_draenei
-	}
 	583.1.1={
+		effect={
+			#set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_4_physical_trait_value }
+		}
+		#trait=physical_lifestyle_dexterity_4
+		#trait=physical_lifestyle_strength_4
 		employer=10015
 		give_council_position = councillor_spymaster
 	}
@@ -2095,12 +1966,6 @@ leoroxx={
 		remove_trait=trusting
 		remove_trait=content
 		employer=270464	#Itesh, Lord of d_orsis	...since she tries to kill Cho'gall
-	}
-	609.12.25={
-		remove_hook={
-			target = character:52000 #Cho'gall
-			type = mindcontrol_hook
-		}
 	}
 	625.4.13={ death=yes }
 }
@@ -2136,10 +2001,12 @@ leoroxx={
 	584.10.5={ birth=yes trait=creature_orc }
 	600.11.3={
 		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value } }
+
 	}
 	603.9.27={
 		trait = being_undead
 		effect={ change_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable add = wc_perks_given_for_magical_level_up_value } }
+		change_trait_rank = { trait = wc_lifestyle_disorder_magic rank = 1 }
 		religion = death_god
 		give_nickname = nick_the_remorseless
 	}
@@ -2156,6 +2023,7 @@ leoroxx={
 	583.11.5={ birth=yes trait=creature_orc }
 	600.11.3={
 		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value } }
+
 	}
 	609.1.1 ={ death=yes }
 }
@@ -2170,6 +2038,7 @@ leoroxx={
 	583.11.5={ birth=yes trait=creature_orc }
 	600.11.3={
 		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value } }
+
 	}
 	609.1.1 ={ death=yes }
 }
@@ -2208,11 +2077,11 @@ leoroxx={
 	571.2.7={ birth=yes trait=creature_orc }
 	587.2.8={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
 	}
 	603.1.1={
 		culture = durotaric
@@ -2224,7 +2093,7 @@ leoroxx={
 	dynasty=2755
 	culture=frostwolf religion=orcish_shamanism
 	martial=6 diplomacy=4 stewardship=7 intrigue=4 learning=5
-	trait=education_stewardship_4 trait=education_martial_prowess_3
+	trait=education_stewardship_4
 	trait=compassionate trait=temperate trait=patient trait=zealous
 	disallow_random_traits = yes
 	555.3.11={ 
@@ -2233,14 +2102,11 @@ leoroxx={
 	}
 	571.3.11={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
-	}
-	583.1.1={
-		employer=10019
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_strength_2
 	}
 	602.3.15={
 		effect={
@@ -2249,30 +2115,28 @@ leoroxx={
 			set_variable = { name = wc_elemental_air_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_earth_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 		}
+
+
+
+
 	}
 	607.1.1={
-		effect = {
-			if = {
-				limit = { NOT = { game_start_date >= 609.12.24 } }
-				imprison = {
-					target = character:42211	#Valeera
-					type = dungeon
-				}
-				imprison = {
-					target = character:broll_bearmantle
-					type = dungeon
-				}
+		effect={
+			imprison = {
+				target = character:42211	#Valeera
+				type = dungeon
+			}
+			imprison = {
+				target = character:broll_bearmantle
+				type = dungeon
 			}
 		}
 	}
 	607.10.1={
-		effect = {
-			if={
-				limit = { NOT = { game_start_date >= 609.12.24 } }
-				imprison = {
-					target = character:8	#Varian
-					type = dungeon
-				}
+		effect={
+			imprison = {
+				target = character:8	#Varian
+				type = dungeon
 			}
 		}
 	}
@@ -2284,17 +2148,17 @@ leoroxx={
 	dynasty=2756
 	culture=frostwolf religion=orcish_shamanism
 	martial=7 diplomacy=4 stewardship=5 intrigue=3 learning=5
-	trait=education_martial_3 trait=education_martial_prowess_3
+	trait=education_martial_3
 	trait=physique_good_3 trait=honest trait=wrathful trait=zealous
 	disallow_random_traits = yes
 	541.5.4={ birth=yes trait=creature_orc }
 	557.5.4={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		#trait=physical_lifestyle_endurance_3
+		#trait=physical_lifestyle_strength_3
 	}
 	598.2.5={ death=yes }
 }
@@ -2314,14 +2178,11 @@ leoroxx={
 	}
 	580.1.12={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
-	}
-	583.1.1={
-		employer=10019
+		#trait=physical_lifestyle_endurance_3
+		#trait=physical_lifestyle_strength_3
 	}
 	601.11.1={
 		employer=10021
@@ -2353,11 +2214,11 @@ leoroxx={
 	}
 	577.1.19={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_dexterity_2
+		#trait=physical_lifestyle_endurance_2
+		#trait=physical_lifestyle_dexterity_2
 	}
 	620.1.1={ death=yes }
 }
@@ -2377,7 +2238,8 @@ leoroxx={
 
 10701={
 	name=Ugratil
-	dynasty=2000
+	### dynasty=2000
+	dynasty_house = house_blackhand
 	culture=blackrock religion=orcish_shamanism
 	martial=7 diplomacy=8 stewardship=7 intrigue=5 learning=4
 	trait=education_diplomacy_2
@@ -2397,8 +2259,8 @@ samuro_blademaster={
 	}
 	580.9.14={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 			add_trait_xp = {
 				trait = lifestyle_blademaster
 				value = 50
@@ -2474,11 +2336,11 @@ thok={
 	563.1.10={ birth=yes trait=creature_orc }
 	581.1.10={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		# #trait=physical_lifestyle_endurance_3
+		# #trait=physical_lifestyle_strength_3
 	}
 	630.1.31={ death=yes }
 }
@@ -2495,8 +2357,8 @@ eitrigg={
 	}
 	580.1.1={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
 		}
 		# trait=physical_lifestyle_endurance_4
 		# trait=physical_lifestyle_strength_4
@@ -2524,30 +2386,6 @@ eitrigg={
 	}
 	630.1.31={ death=yes }
 }
-ariok={
-	name=Ariok
-	culture=blackrock religion=orcish_shamanism
-	martial=7 diplomacy=5 stewardship=6 intrigue=4 learning=8
-	trait=education_martial_2 trait=education_martial_prowess_2 trait=diligent trait=brave trait=strong trait=just trait=patient
-	father=eitrigg
-	disallow_random_traits = yes
-	584.10.18={ 
-		birth=yes trait=creature_orc
-		effect = { make_important_lore_character_effect = yes }
-	}
-	590.1.1={
-		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_4_physical_trait_value }
-		}
-		# trait=physical_lifestyle_endurance_4
-		# trait=physical_lifestyle_strength_4
-	}
-	614.1.21={
-		trait=dire trait=berserker
-	}
-	660.1.31={ death=yes }
-}
 
 marez_cowl={
 	name=Marez
@@ -2557,7 +2395,7 @@ marez_cowl={
 	martial=5 diplomacy=8 stewardship=7 intrigue=8 learning=7
 	trait=education_intrigue_3
 	trait=deceitful trait=patient trait=diligent
-	574.9.6={ birth=yes trait=creature_orc }
+	573.9.6={ birth=yes trait=creature_orc }
 	587.1.1={
 		effect = {
 			set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value }
@@ -2568,12 +2406,7 @@ marez_cowl={
 	} 
 	600.1.1={
 		employer = 58002 #Aliden Perenolde
-		learn_language = language_common
 		religion=holy_light
-		effect = { make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:orcish_fel } }
-	}
-	604.4.17={
-		employer=58013 #Falconcrest
 	}
 	630.1.28={ death=yes }
 }
@@ -2587,15 +2420,15 @@ genjuros={
 	563.9.6={ birth=yes trait=creature_orc }
 	566.5.18={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 			add_trait_xp = {
 				trait = lifestyle_blademaster
 				value = 50
 			}
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		# #trait=physical_lifestyle_endurance_3
+		# #trait=physical_lifestyle_strength_3
 	}
 	603.1.1={
 		employer = 10550 #Jubei'thos
@@ -2616,15 +2449,15 @@ haomarush={
 	563.9.6={ birth=yes trait=creature_orc }
 	566.5.18={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 			add_trait_xp = {
 				trait = lifestyle_blademaster
 				value = 50
 			}
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		# #trait=physical_lifestyle_endurance_3
+		# #trait=physical_lifestyle_strength_3
 	}
 	603.1.1={
 		employer = 10550 #Jubei'thos
@@ -2645,15 +2478,15 @@ khanzo={
 	563.9.6={ birth=yes trait=creature_orc }
 	566.5.18={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_3_physical_trait_value }
 			add_trait_xp = {
 				trait = lifestyle_blademaster
 				value = 50
 			}
 		}
-		# trait=physical_lifestyle_endurance_3
-		# trait=physical_lifestyle_strength_3
+		# #trait=physical_lifestyle_endurance_3
+		# #trait=physical_lifestyle_strength_3
 	}
 	603.1.1={
 		employer = 10550 #Jubei'thos
@@ -2673,15 +2506,15 @@ mazrigos={
 	563.9.6={ birth=yes trait=creature_orc }
 	566.5.18={
 		effect = {
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 			set_variable = { name = wc_elemental_fire_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_water_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_air_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_earth_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		# #trait=physical_lifestyle_endurance_2
+		# #trait=physical_lifestyle_strength_2
 	}
 	603.1.1={
 		employer = 10550 #Jubei'thos
@@ -2697,19 +2530,19 @@ throk_feroth={
 	name=Throk'Feroth
 	culture=blackrock religion=orcish_fel
 	martial=6 diplomacy=4 stewardship=5 intrigue=4 learning=6
-	trait=education_learning_2 trait=viking
+	trait=education_learning_2
 	563.9.6={ birth=yes trait=creature_orc }
 	566.5.18={
 		effect = {
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 			set_variable = { name = wc_elemental_fire_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_water_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_air_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 			set_variable = { name = wc_elemental_earth_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		# #trait=physical_lifestyle_endurance_2
+		# #trait=physical_lifestyle_strength_2
 	}
 	603.1.1={
 		employer = 10550 #Jubei'thos
@@ -2731,8 +2564,8 @@ slave_master={
 	563.9.6={ birth=yes trait=creature_orc }
 	566.5.18={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
 		# trait=physical_lifestyle_endurance_3
 		# trait=physical_lifestyle_strength_3
@@ -2756,17 +2589,15 @@ master_kang={
 	563.9.6={ birth=yes trait=creature_orc }
 	566.5.18={
 		effect = {
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		# #trait=physical_lifestyle_endurance_2
+		# #trait=physical_lifestyle_strength_2
 	}
 	603.1.1={
 		employer = 58018 #Jorach
-		add_opinion = { modifier = loyal_servant target = character:58018 }
-		learn_language = language_common
 	}
 	657.4.10 = { death = yes }
 }
@@ -2779,15 +2610,11 @@ captain_galvangar={
 	553.9.6={ birth=yes trait=creature_orc }
 	568.5.18={
 		effect = {
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			add_trait_xp = {
-				trait = lifestyle_blademaster
-				value = 50
-			}
+			#set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
+			#set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value =  value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
+		# #trait=physical_lifestyle_endurance_2
+		# #trait=physical_lifestyle_strength_2
 	}
 	585.1.1={
 		employer = 10100 #Drek'thar
@@ -2804,30 +2631,6 @@ mogrin={
 		culture = durotaric
 	}
 	605.4.22={
-		death = {
-			death_reason = death_battle
-		}
-	}
-}
-morg_wolfsong={
-	name=Morg
-	dynasty=wolfsong
-	culture=frostwolf religion=orcish_shamanism
-	trait=education_learning_2
-	trait=generous trait=zealous trait=stubborn
-	564.2.12={ birth=yes trait=creature_orc }
-	576.1.1={
-		effect={
-			set_variable = { name = wc_elemental_fire_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-			set_variable = { name = wc_elemental_water_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-			set_variable = { name = wc_elemental_air_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-			set_variable = { name = wc_elemental_earth_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-		}
-	}
-	603.1.1={
-		culture = durotaric
-	}
-	605.4.23={
 		death = {
 			death_reason = death_battle
 		}
@@ -2923,8 +2726,8 @@ garthok={
 	}
 	580.1.12={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_physical_trait_value }
 		}
 		# trait=physical_lifestyle_endurance_3
 		# trait=physical_lifestyle_strength_3
@@ -2948,8 +2751,8 @@ grunt_maug={
 	}
 	580.1.12={
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
 		}
 		# trait=physical_lifestyle_endurance_1
 		# trait=physical_lifestyle_strength_1
@@ -2960,65 +2763,13 @@ grunt_maug={
 	}
 	620.1.1={ death=yes }
 }
-#Warcraft Adventures
-baelgun_frostwolf={ #Semi-canon. Tribal Elder and historian of the Frostwolf clan
-	name=Baelgun
-	culture=frostwolf religion=orcish_shamanism
-	trait=education_learning_3 trait=journaller
-	trait=stubborn trait=honest trait=diligent
-	549.6.26={ birth=yes trait=creature_orc }
-	585.1.1={
-		employer = 10100 #Drek'thar
-	}
-	625.8.10={ death=yes }
-}
-zargil={ #Semi-canon. Tribal Elder of the Frostwolf clan
-	name=Zar'gil
-	culture=frostwolf religion=orcish_shamanism
-	547.6.26={ birth=yes trait=creature_orc }
-	585.1.1={
-		employer = 10100 #Drek'thar
-	}
-	625.8.10={ death=yes }
-}
-gathras={ #Semi-canon. Tribal Elder of the Frostwolf clan
-	name=Gath'ras
-	female=yes
-	culture=frostwolf religion=orcish_shamanism
-	542.6.26={ birth=yes trait=creature_orc }
-	585.1.1={
-		employer = 10100 #Drek'thar
-	}
-	625.8.10={ death=yes }
-}
-
-palkar={ #a young orc of the Frostwolf clan who serves as Drek'Thar's personal attendant
-	name=Palkar
-	culture=frostwolf religion=orcish_shamanism
-	martial=4 diplomacy=5 stewardship=7 intrigue=5 learning=5
-	trait=education_stewardship_3 trait=calm trait=patient trait=content
-	father=zargil
-	585.6.26={ birth=yes trait=creature_orc }
-	597.1.1={
-		effect={
-			set_variable = { name = wc_elemental_fire_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-			set_variable = { name = wc_elemental_water_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-			set_variable = { name = wc_elemental_air_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-			set_variable = { name = wc_elemental_earth_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-			add_opinion = { modifier = mentored_me_opinion target = character:10100 }
-		}
-		employer = 10100 #Drek'thar
-		give_council_position = councillor_steward
-	}
-	665.8.10={ death=yes }
-}
 
 narg_snarl = { #From the RPG books
 	name = Narg
 	dynasty = snarl
 	religion = orcish_fel culture = blackrock
 	trait=education_stewardship_2 trait=arrogant trait=callous trait=wrathful trait=bossy
-	566.9.11 = {
+	567.9.11 = {
 		birth = yes
 		trait = creature_orc
 	}
@@ -3035,6 +2786,7 @@ narg_snarl = { #From the RPG books
 		add_trait=education_stewardship_3
 	}
 	590.12.1 = {
+		employer = 360002 #generated
 		trait = being_undead
 	}
 	680.12.30={ death=yes }
@@ -3098,44 +2850,6 @@ tharbek = { #a subchieftain under Orgrim Doomhammer during the Second War
 			death_reason = death_battle
 		}
 	}
-}
-
-uglaz={ #Semi-canon character from Warcraft Adventures
-	name=Uglaz
-	culture=blackrock religion=orcish_fel
-	trait=education_martial_2 trait=education_martial_prowess_2
-	trait=deceitful trait=callous
-	564.2.12={ birth=yes trait=creature_orc }
-	582.1.1={
-		employer=10002 #Dal'rend
-	}
-	628.2.19={ death=yes }
-}
-
-gathilzogg={ #one of the Warlords of the Blackrock clan
-	name=Gath'Ilzogg
-	culture=blackrock religion=orcish_fel
-	trait=education_martial_2 trait=education_martial_prowess_2
-	trait=deceitful trait=callous
-	564.2.12={ birth=yes trait=creature_orc }
-	580.1.1=={
-		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-		}
-		# trait=physical_lifestyle_endurance_2
-		# trait=physical_lifestyle_strength_2
-	}
-	582.1.1={
-		employer=10002 #Dal'rend
-	}
-	589.11.1={
-		employer = 10555 #Tharil'zun[2149]
-	}
-	606.2.23={
-		effect={ set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value } }
-	}
-	628.2.19={ death=yes }
 }
 
 jergosh_the_invoker={
@@ -3278,8 +2992,8 @@ gaz_soulripper={
 		add_trait = creature_human
 		culture = stormreaver
 		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
 			set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
 		}
 		# trait=physical_lifestyle_endurance_1
@@ -3329,144 +3043,10 @@ rakmar_sharpfang={ #unofficial leader of the necrolytes
 	587.6.1={
 		culture = stormreaver
 	}
-	587.6.1={
+	588.1.1={
 		death = {
 			death_reason = death_punishment #slaughtered for the sake of using their energies to create the death knights
 			killer=10015 #Gul'dan
-		}
-	}
-}
-urluk_cloudkiller={
-	name=Urluk
-	dynasty=cloudkiller
-	culture=thunderlord religion=orcish_fel
-	martial=3 diplomacy=7 stewardship=5 intrigue=5 learning=6
-	trait=education_learning_1 trait=craven trait=paranoid trait=honest
-	554.6.18={ birth=yes trait=creature_orc }
-	577.1.1={
-		effect={ 
-			set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_magic_trait_value }
-		}
-	}
-	583.1.1={
-		employer = 10015
-	}
-	587.6.1={
-		culture = stormreaver
-	}
-	590.2.18={
-		death = {
-			death_reason = death_punishment #killed for being frightened by the guardians of the tomb
-			killer=10015 #Gul'dan
-		}
-	}
-}
-
-ras_splinterspine={
-	name=Ras
-	dynasty=splinterspine
-	culture=bonechewer religion=orcish_fel
-	martial=6 diplomacy=5 stewardship=4 intrigue=6 learning=6
-	trait=education_learning_2
-	trait=callous trait=stubborn trait=deceitful
-	536.1.1={
-		birth=yes trait=creature_orc
-	}
-	552.1.1={
-		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value } }
-	}
-	583.1.1={
-		employer = 10015
-		effect={
-			if = { limit = { character:10015 = { is_alive = yes } } add_opinion = { modifier = loyal_servant target = character:10015 } }
-			#join_society_shadow_council_effect = yes
-			#society_rank_up = 2
-		}
-	}
-	587.6.1={
-		remove_trait = creature_orc
-		trait = being_undead
-		add_trait = creature_human
-		culture = stormreaver
-		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
-		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
-	}
-	591.6.1={
-		remove_trait = creature_human
-		add_trait = creature_lich
-		religion = death_god
-		culture = scourge
-		effect={
-			set_variable = { name = wc_elemental_water_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
-			make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:burning_legion_religion }
-		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
-	}
-	605.5.21={
-		employer=430400 # Balnazzar
-		religion=burning_legion_religion
-	}
-	605.6.10={
-		death = {
-			death_reason = death_battle
-			killer = 42076 # Sylvanas
-		}
-	}
-}
-rage_winterchill={
-	name=Rage
-	dynasty=winterchill
-	culture=frostwolf religion=orcish_fel
-	martial=6 diplomacy=5 stewardship=4 intrigue=6 learning=6
-	trait=education_martial_2
-	trait=callous trait=wrathful trait=zealous trait=loyal
-	536.1.1={
-		birth=yes trait=creature_orc
-	}
-	552.1.1={
-		effect={ set_variable = { name = wc_disorder_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_3_magic_trait_value } }
-	}
-	583.1.1={
-		employer = 10015
-		effect={
-			if = { limit = { character:10015 = { is_alive = yes } } add_opinion = { modifier = loyal_servant target = character:10015 } }
-			#join_society_shadow_council_effect = yes
-			#society_rank_up = 2
-		}
-	}
-	587.6.1={
-		remove_trait = creature_orc
-		trait = being_undead
-		add_trait = creature_human
-		culture = stormreaver
-		effect={
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_1_physical_trait_value }
-			set_variable = { name = wc_death_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
-		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
-	}
-	591.6.1={
-		remove_trait = creature_human
-		add_trait = creature_lich
-		religion = burning_legion_religion
-		culture = scourge
-		effect={
-			set_variable = { name = wc_elemental_water_magic_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_magic_trait_value }
-		}
-		# trait=physical_lifestyle_endurance_1
-		# trait=physical_lifestyle_strength_1
-	}
-	604.6.1={
-		death = {
-			death_reason = death_battle
 		}
 	}
 }
@@ -3479,8 +3059,8 @@ gargok={
 	561.1.1={ birth=yes trait=creature_orc }
 	577.1.1={
 		effect = {
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
 	}
 	638.2.19={ death=yes }
@@ -3495,8 +3075,8 @@ krenna={
 	579.1.1={ birth=yes trait=creature_orc }
 	597.1.1={
 		effect = {
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
 	}
 	610.12.23 = {
@@ -3516,8 +3096,8 @@ gorgonna={
 	581.1.1={ birth=yes trait=creature_orc }
 	597.1.1={
 		effect = {
-			set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			# set_variable = { name = wc_strength_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
 	}
 	658.2.19={ death=yes }
@@ -3530,8 +3110,8 @@ rokaro={
 	565.3.25={ birth=yes trait=creature_orc }
 	577.1.1={
 		effect = {
-			set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
-			set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			# set_variable = { name = wc_dexterity_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
+			# set_variable = { name = wc_endurance_physical_lifestyle_additional_perks_variable value = wc_perks_needed_for_level_2_physical_trait_value }
 		}
 	}
 	605.5.19{
@@ -3619,7 +3199,8 @@ stormreaver1 = {
 	587.6.1={
 		culture = stormreaver
 	} 
-	590.12.1 = {
+	590.12.1 = { 
+		employer = 360002 #generated
 		trait = being_undead
 	}
 }
@@ -3638,7 +3219,8 @@ twilights_hammer1 = {
 	583.1.1 = { 
 		employer = 52000
 	}
-	590.12.1 = {
+	590.12.1 = { 
+		employer = 360002 #generated
 		trait = being_undead
 	}
 }
